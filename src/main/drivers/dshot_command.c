@@ -1,13 +1,13 @@
 /*
- * This file is part of Cleanflight and Betaflight.
+ * This file is part of Cleanflight and Chickenflight.
  *
- * Cleanflight and Betaflight are free software. You can redistribute
+ * Cleanflight and Chickenflight are free software. You can redistribute
  * this software and/or modify this software under the terms of the
  * GNU General Public License as published by the Free Software
  * Foundation, either version 3 of the License, or (at your option)
  * any later version.
  *
- * Cleanflight and Betaflight are distributed in the hope that they
+ * Cleanflight and Chickenflight are distributed in the hope that they
  * will be useful, but WITHOUT ANY WARRANTY; without even the implied
  * warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
  * See the GNU General Public License for more details.
@@ -62,7 +62,7 @@ static timeUs_t dshotCommandPidLoopTimeUs = 125; // default to 8KHz (125us) loop
                                                  // gets set to the actual value when the PID loop is initialized
 
 // XXX Optimization opportunity here.
-// https://github.com/betaflight/betaflight/pull/8534#pullrequestreview-258947278
+// https://github.com/chickenflight/chickenflight/pull/8534#pullrequestreview-258947278
 // @ledvinap: queue entry is quite large - it may be better to handle empty/full queue using different mechanism (magic value for Head or Tail / explicit element count)
 // Explicit element count will make code below simpler, but care has to be taken to avoid race conditions
 

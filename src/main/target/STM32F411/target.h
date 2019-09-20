@@ -1,13 +1,13 @@
 /*
- * This file is part of Cleanflight and Betaflight.
+ * This file is part of Cleanflight and Chickenflight.
  *
- * Cleanflight and Betaflight are free software. You can redistribute
+ * Cleanflight and Chickenflight are free software. You can redistribute
  * this software and/or modify this software under the terms of the
  * GNU General Public License as published by the Free Software
  * Foundation, either version 3 of the License, or (at your option)
  * any later version.
  *
- * Cleanflight and Betaflight are distributed in the hope that they
+ * Cleanflight and Chickenflight are distributed in the hope that they
  * will be useful, but WITHOUT ANY WARRANTY; without even the implied
  * warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
  * See the GNU General Public License for more details.
@@ -24,7 +24,7 @@
 
 #define TARGET_BOARD_IDENTIFIER "S411"
 
-#define USBD_PRODUCT_STRING     "Betaflight STM32F411"
+#define USBD_PRODUCT_STRING     "Chickenflight STM32F411"
 
 #define USE_I2C_DEVICE_1
 #define USE_I2C_DEVICE_2

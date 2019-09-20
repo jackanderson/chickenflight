@@ -1,13 +1,13 @@
 /*
- * This file is part of Cleanflight and Betaflight.
+ * This file is part of Cleanflight and Chickenflight.
  *
- * Cleanflight and Betaflight are free software. You can redistribute
+ * Cleanflight and Chickenflight are free software. You can redistribute
  * this software and/or modify this software under the terms of the
  * GNU General Public License as published by the Free Software
  * Foundation, either version 3 of the License, or (at your option)
  * any later version.
  *
- * Cleanflight and Betaflight are distributed in the hope that they
+ * Cleanflight and Chickenflight are distributed in the hope that they
  * will be useful, but WITHOUT ANY WARRANTY; without even the implied
  * warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
  * See the GNU General Public License for more details.
@@ -1239,7 +1239,7 @@ static float applyLaunchControl(int axis, const rollAndPitchTrims_t *angleTrim)
 }
 #endif
 
-// Betaflight pid controller, which will be maintained in the future with additional features specialised for current (mini) multirotor usage.
+// Chickenflight pid controller, which will be maintained in the future with additional features specialised for current (mini) multirotor usage.
 // Based on 2DOF reference design (matlab)
 void FAST_CODE pidController(const pidProfile_t *pidProfile, timeUs_t currentTimeUs)
 {

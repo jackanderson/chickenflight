@@ -1,9 +1,9 @@
 # AnyFC-F7
 
-* The first F7 board flown with betaflight and inavflight, made by [@sambas](https://github.com/sambas)
+* The first F7 board flown with chickenflight and inavflight, made by [@sambas](https://github.com/sambas)
 * OSHW CC BY-SA 3.0
 * Source: https://github.com/sambas/hw/tree/master/AnyFCF7
-* 1st betaflight: https://www.youtube.com/watch?v=tv7k3A0FG80
+* 1st chickenflight: https://www.youtube.com/watch?v=tv7k3A0FG80
 * 1st inavflight: https://www.youtube.com/watch?v=kJvlZAzprBs
 
 ## HW info

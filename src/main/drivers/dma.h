@@ -1,13 +1,13 @@
 /*
- * This file is part of Cleanflight and Betaflight.
+ * This file is part of Cleanflight and Chickenflight.
  *
- * Cleanflight and Betaflight are free software. You can redistribute
+ * Cleanflight and Chickenflight are free software. You can redistribute
  * this software and/or modify this software under the terms of the
  * GNU General Public License as published by the Free Software
  * Foundation, either version 3 of the License, or (at your option)
  * any later version.
  *
- * Cleanflight and Betaflight are distributed in the hope that they
+ * Cleanflight and Chickenflight are distributed in the hope that they
  * will be useful, but WITHOUT ANY WARRANTY; without even the implied
  * warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
  * See the GNU General Public License for more details.
@@ -25,7 +25,7 @@
 // dmaResource_t is a opaque data type which represents a single DMA engine,
 // called and implemented differently in different families of STM32s.
 // The opaque data type provides uniform handling of the engine in source code.
-// The engines are referenced by dmaResource_t through out the Betaflight code,
+// The engines are referenced by dmaResource_t through out the Chickenflight code,
 // and then converted back to DMA_ARCH_TYPE which is a native type for
 // the particular MCU type when calling library functions.
 

@@ -1,13 +1,13 @@
 /*
- * This file is part of Cleanflight and Betaflight.
+ * This file is part of Cleanflight and Chickenflight.
  *
- * Cleanflight and Betaflight are free software. You can redistribute
+ * Cleanflight and Chickenflight are free software. You can redistribute
  * this software and/or modify this software under the terms of the
  * GNU General Public License as published by the Free Software
  * Foundation, either version 3 of the License, or (at your option)
  * any later version.
  *
- * Cleanflight and Betaflight are distributed in the hope that they
+ * Cleanflight and Chickenflight are distributed in the hope that they
  * will be useful, but WITHOUT ANY WARRANTY; without even the implied
  * warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
  * See the GNU General Public License for more details.
@@ -1327,7 +1327,7 @@ static bool blackboxWriteSysinfo(void)
         BLACKBOX_PRINT_HEADER_LINE("vbat_pid_gain", "%d",                   currentPidProfile->vbatPidCompensation);
         BLACKBOX_PRINT_HEADER_LINE("pidAtMinThrottle", "%d",                currentPidProfile->pidAtMinThrottle);
 
-        // Betaflight PID controller parameters
+        // Chickenflight PID controller parameters
         BLACKBOX_PRINT_HEADER_LINE("anti_gravity_mode", "%d",               currentPidProfile->antiGravityMode);
         BLACKBOX_PRINT_HEADER_LINE("anti_gravity_threshold", "%d",          currentPidProfile->itermThrottleThreshold);
         BLACKBOX_PRINT_HEADER_LINE("anti_gravity_gain", "%d",               currentPidProfile->itermAcceleratorGain);
@@ -1352,7 +1352,7 @@ static bool blackboxWriteSysinfo(void)
         BLACKBOX_PRINT_HEADER_LINE("acc_limit", "%d",                       currentPidProfile->rateAccelLimit);
         BLACKBOX_PRINT_HEADER_LINE("pidsum_limit", "%d",                    currentPidProfile->pidSumLimit);
         BLACKBOX_PRINT_HEADER_LINE("pidsum_limit_yaw", "%d",                currentPidProfile->pidSumLimitYaw);
-        // End of Betaflight controller parameters
+        // End of Chickenflight controller parameters
 
         BLACKBOX_PRINT_HEADER_LINE("deadband", "%d",                        rcControlsConfig()->deadband);
         BLACKBOX_PRINT_HEADER_LINE("yaw_deadband", "%d",                    rcControlsConfig()->yaw_deadband);

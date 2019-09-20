@@ -393,7 +393,7 @@ USB_OTG_STS USB_OTG_CoreInit(USB_OTG_CORE_HANDLE *pdev)
     gccfg.d32 = 0;
     gccfg.b.pwdn = 1;
 
-    // XXX Betaflight mod; disabled VBUS sensing features completely, including Sense A and B.
+    // XXX Chickenflight mod; disabled VBUS sensing features completely, including Sense A and B.
     gccfg.b.disablevbussensing = 1; 
 
     if(pdev->cfg.Sof_output)

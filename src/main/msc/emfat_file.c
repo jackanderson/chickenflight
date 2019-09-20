@@ -1,13 +1,13 @@
 /*
- * This file is part of Cleanflight and Betaflight.
+ * This file is part of Cleanflight and Chickenflight.
  *
- * Cleanflight and Betaflight are free software. You can redistribute
+ * Cleanflight and Chickenflight are free software. You can redistribute
  * this software and/or modify this software under the terms of the
  * GNU General Public License as published by the Free Software
  * Foundation, either version 3 of the License, or (at your option)
  * any later version.
  *
- * Cleanflight and Betaflight are distributed in the hope that they
+ * Cleanflight and Chickenflight are distributed in the hope that they
  * will be useful, but WITHOUT ANY WARRANTY; without even the implied
  * warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
  * See the GNU General Public License for more details.
@@ -46,7 +46,7 @@
 static const char autorun_file[] =
     "[autorun]\r\n"
     "icon=icon.ico\r\n"
-    "label=Betaflight Onboard Flash\r\n" ;
+    "label=Chickenflight Onboard Flash\r\n" ;
 #define AUTORUN_SIZE (sizeof(autorun_file) - 1)
 #define EMFAT_INCR_AUTORUN 1
 #else

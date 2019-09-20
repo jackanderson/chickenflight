@@ -3,7 +3,7 @@
 * STM32F722 board, made by [@sambas](https://github.com/sambas)
 * OSHW CC BY-SA 3.0
 * Source: https://github.com/sambas/hw/tree/master/AnyFCM7
-* 1st test with betaflight: https://www.youtube.com/watch?v=E4KqkaSy30g
+* 1st test with chickenflight: https://www.youtube.com/watch?v=E4KqkaSy30g
 
 ## HW info
 

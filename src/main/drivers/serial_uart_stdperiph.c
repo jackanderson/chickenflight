@@ -1,13 +1,13 @@
 /*
- * This file is part of Cleanflight and Betaflight.
+ * This file is part of Cleanflight and Chickenflight.
  *
- * Cleanflight and Betaflight are free software. You can redistribute
+ * Cleanflight and Chickenflight are free software. You can redistribute
  * this software and/or modify this software under the terms of the
  * GNU General Public License as published by the Free Software
  * Foundation, either version 3 of the License, or (at your option)
  * any later version.
  *
- * Cleanflight and Betaflight are distributed in the hope that they
+ * Cleanflight and Chickenflight are distributed in the hope that they
  * will be useful, but WITHOUT ANY WARRANTY; without even the implied
  * warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
  * See the GNU General Public License for more details.
@@ -85,7 +85,7 @@ void uartReconfigure(uartPort_t *uartPort)
 
     // according to the stm32 documentation wordlen has to be 9 for parity bits
     // this does not seem to matter for rx but will give bad data on tx!
-    // This seems to cause RX to break on STM32F1, see https://github.com/betaflight/betaflight/pull/1654
+    // This seems to cause RX to break on STM32F1, see https://github.com/chickenflight/chickenflight/pull/1654
     if (
 #if defined(STM32F1)
             false &&

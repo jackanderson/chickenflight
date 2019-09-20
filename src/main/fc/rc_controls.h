@@ -1,13 +1,13 @@
 /*
- * This file is part of Cleanflight and Betaflight.
+ * This file is part of Cleanflight and Chickenflight.
  *
- * Cleanflight and Betaflight are free software. You can redistribute
+ * Cleanflight and Chickenflight are free software. You can redistribute
  * this software and/or modify this software under the terms of the
  * GNU General Public License as published by the Free Software
  * Foundation, either version 3 of the License, or (at your option)
  * any later version.
  *
- * Cleanflight and Betaflight are distributed in the hope that they
+ * Cleanflight and Chickenflight are distributed in the hope that they
  * will be useful, but WITHOUT ANY WARRANTY; without even the implied
  * warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
  * See the GNU General Public License for more details.
@@ -97,7 +97,7 @@ typedef enum {
 #define CONTROL_RATE_CONFIG_RATE_LIMIT_MIN	200
 #define CONTROL_RATE_CONFIG_RATE_LIMIT_MAX	1998
 
-// (Super) rates are constrained to [0, 100] for Betaflight rates, so values higher than 100 won't make a difference. Range extended for RaceFlight rates.
+// (Super) rates are constrained to [0, 100] for Chickenflight rates, so values higher than 100 won't make a difference. Range extended for RaceFlight rates.
 #define CONTROL_RATE_CONFIG_RATE_MAX  255
 
 #define CONTROL_RATE_CONFIG_TPA_MAX              100

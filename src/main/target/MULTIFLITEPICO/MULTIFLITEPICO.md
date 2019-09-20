@@ -10,7 +10,7 @@ The FC is available from the following store(s):
 
 The features of the FC are detailed below:
 
-- Cleanflight and Betaflight firmware compatible
+- Cleanflight and Chickenflight firmware compatible
 - 22.5 x 25mm
 - 2.25g
 - Single side populated (for super easy mounting)

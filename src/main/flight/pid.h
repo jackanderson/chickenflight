@@ -1,13 +1,13 @@
 /*
- * This file is part of Cleanflight and Betaflight.
+ * This file is part of Cleanflight and Chickenflight.
  *
- * Cleanflight and Betaflight are free software. You can redistribute
+ * Cleanflight and Chickenflight are free software. You can redistribute
  * this software and/or modify this software under the terms of the
  * GNU General Public License as published by the Free Software
  * Foundation, either version 3 of the License, or (at your option)
  * any later version.
  *
- * Cleanflight and Betaflight are distributed in the hope that they
+ * Cleanflight and Chickenflight are distributed in the hope that they
  * will be useful, but WITHOUT ANY WARRANTY; without even the implied
  * warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
  * See the GNU General Public License for more details.
@@ -35,7 +35,7 @@
 #define PIDSUM_LIMIT_MIN            100
 #define PIDSUM_LIMIT_MAX            1000
 
-// Scaling factors for Pids for better tunable range in configurator for betaflight pid controller. The scaling is based on legacy pid controller or previous float
+// Scaling factors for Pids for better tunable range in configurator for chickenflight pid controller. The scaling is based on legacy pid controller or previous float
 #define PTERM_SCALE 0.032029f
 #define ITERM_SCALE 0.244381f
 #define DTERM_SCALE 0.000529f
@@ -122,7 +122,7 @@ typedef struct pidProfile_s {
     uint8_t horizon_tilt_effect;            // inclination factor for Horizon mode
     uint8_t horizon_tilt_expert_mode;       // OFF or ON
 
-    // Betaflight PID controller parameters
+    // Chickenflight PID controller parameters
     uint8_t  antiGravityMode;             // type of anti gravity method
     uint16_t itermThrottleThreshold;        // max allowed throttle delta before iterm accelerated in ms
     uint16_t itermAcceleratorGain;          // Iterm Accelerator Gain when itermThrottlethreshold is hit

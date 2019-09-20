@@ -1,18 +1,18 @@
 /*
- * This file is part of Betaflight.
+ * This file is part of Chickenflight.
  *
- * Betaflight is free software: you can redistribute it and/or modify
+ * Chickenflight is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * Betaflight is distributed in the hope that it will be useful,
+ * Chickenflight is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with Betaflight. If not, see <http://www.gnu.org/licenses/>.
+ * along with Chickenflight. If not, see <http://www.gnu.org/licenses/>.
  */
 
 #include <stdint.h>
@@ -259,7 +259,7 @@ static void idleTasks()
     }
 }
 
-// Very similar to maghold function on betaflight/cleanflight
+// Very similar to maghold function on chickenflight/cleanflight
 static void setBearing(int16_t desiredHeading)
 {
     float errorAngle = (attitude.values.yaw / 10.0f) - desiredHeading;

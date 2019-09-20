@@ -1,13 +1,13 @@
 /*
- * This file is part of Cleanflight and Betaflight.
+ * This file is part of Cleanflight and Chickenflight.
  *
- * Cleanflight and Betaflight are free software. You can redistribute
+ * Cleanflight and Chickenflight are free software. You can redistribute
  * this software and/or modify this software under the terms of the
  * GNU General Public License as published by the Free Software
  * Foundation, either version 3 of the License, or (at your option)
  * any later version.
  *
- * Cleanflight and Betaflight are distributed in the hope that they
+ * Cleanflight and Chickenflight are distributed in the hope that they
  * will be useful, but WITHOUT ANY WARRANTY; without even the implied
  * warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
  * See the GNU General Public License for more details.
@@ -149,7 +149,7 @@ STATIC_ASSERT(CONTROL_RATE_CONFIG_RATE_LIMIT_MAX <= SETPOINT_RATE_LIMIT, CONTROL
 
 #define RC_RATE_INCREMENTAL 14.54f
 
-float applyBetaflightRates(const int axis, float rcCommandf, const float rcCommandfAbs)
+float applyChickenflightRates(const int axis, float rcCommandf, const float rcCommandfAbs)
 {
     if (currentControlRateProfile->rcExpo[axis]) {
         const float expof = currentControlRateProfile->rcExpo[axis] / 100.0f;
@@ -784,7 +784,7 @@ void initRcProcessing(void)
     switch (currentControlRateProfile->rates_type) {
     case RATES_TYPE_BETAFLIGHT:
     default:
-        applyRates = applyBetaflightRates;
+        applyRates = applyChickenflightRates;
 
         break;
     case RATES_TYPE_RACEFLIGHT:

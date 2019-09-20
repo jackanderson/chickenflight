@@ -1,13 +1,13 @@
 /*
- * This file is part of Cleanflight and Betaflight.
+ * This file is part of Cleanflight and Chickenflight.
  *
- * Cleanflight and Betaflight are free software. You can redistribute
+ * Cleanflight and Chickenflight are free software. You can redistribute
  * this software and/or modify this software under the terms of the
  * GNU General Public License as published by the Free Software
  * Foundation, either version 3 of the License, or (at your option)
  * any later version.
  *
- * Cleanflight and Betaflight are distributed in the hope that they
+ * Cleanflight and Chickenflight are distributed in the hope that they
  * will be useful, but WITHOUT ANY WARRANTY; without even the implied
  * warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
  * See the GNU General Public License for more details.
@@ -308,7 +308,7 @@ static void saProcessResponse(uint8_t *buf, int len)
             //zero is indeed a valid power level to set the vtx to, but it activates pit mode.
             //crucially, after sending 0 dbm, the vtx does NOT report its power level to be 0 dbm.
             //instead, it reports whatever value was set previously and it reports to be in pit mode.
-            //for this reason, zero shouldn't be used as a normal power level in betaflight.
+            //for this reason, zero shouldn't be used as a normal power level in chickenflight.
 #ifdef USE_SMARTAUDIO_DPRINTF
             if ( len < ( 9 + saSupportedNumPowerLevels )) {
                 dprintf(("processResponse: V2.1 vtx expected %d power levels but packet too short\r\n", saSupportedNumPowerLevels));

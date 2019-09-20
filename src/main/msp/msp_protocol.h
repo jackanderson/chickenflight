@@ -1,13 +1,13 @@
 /*
- * This file is part of Cleanflight and Betaflight.
+ * This file is part of Cleanflight and Chickenflight.
  *
- * Cleanflight and Betaflight are free software. You can redistribute
+ * Cleanflight and Chickenflight are free software. You can redistribute
  * this software and/or modify this software under the terms of the
  * GNU General Public License as published by the Free Software
  * Foundation, either version 3 of the License, or (at your option)
  * any later version.
  *
- * Cleanflight and Betaflight are distributed in the hope that they
+ * Cleanflight and Chickenflight are distributed in the hope that they
  * will be useful, but WITHOUT ANY WARRANTY; without even the implied
  * warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
  * See the GNU General Public License for more details.
@@ -101,8 +101,8 @@
 #define MSP_BOARD_INFO                  4    //out message
 #define MSP_BUILD_INFO                  5    //out message
 
-#define MSP_NAME                        10   //out message          Returns user set board name - betaflight
-#define MSP_SET_NAME                    11   //in message           Sets board name - betaflight
+#define MSP_NAME                        10   //out message          Returns user set board name - chickenflight
+#define MSP_SET_NAME                    11   //in message           Sets board name - chickenflight
 
 //
 // MSP commands for Cleanflight original features
@@ -192,16 +192,16 @@
 #define MSP_TRANSPONDER_CONFIG          82 //out message         Get transponder settings
 #define MSP_SET_TRANSPONDER_CONFIG      83 //in message          Set transponder settings
 
-#define MSP_OSD_CONFIG                  84 //out message         Get osd settings - betaflight
-#define MSP_SET_OSD_CONFIG              85 //in message          Set osd settings - betaflight
+#define MSP_OSD_CONFIG                  84 //out message         Get osd settings - chickenflight
+#define MSP_SET_OSD_CONFIG              85 //in message          Set osd settings - chickenflight
 
-#define MSP_OSD_CHAR_READ               86 //out message         Get osd settings - betaflight
-#define MSP_OSD_CHAR_WRITE              87 //in message          Set osd settings - betaflight
+#define MSP_OSD_CHAR_READ               86 //out message         Get osd settings - chickenflight
+#define MSP_OSD_CHAR_WRITE              87 //in message          Set osd settings - chickenflight
 
-#define MSP_VTX_CONFIG                  88 //out message         Get vtx settings - betaflight
-#define MSP_SET_VTX_CONFIG              89 //in message          Set vtx settings - betaflight
+#define MSP_VTX_CONFIG                  88 //out message         Get vtx settings - chickenflight
+#define MSP_SET_VTX_CONFIG              89 //in message          Set vtx settings - chickenflight
 
-// Betaflight Additional Commands
+// Chickenflight Additional Commands
 #define MSP_ADVANCED_CONFIG             90
 #define MSP_SET_ADVANCED_CONFIG         91
 
